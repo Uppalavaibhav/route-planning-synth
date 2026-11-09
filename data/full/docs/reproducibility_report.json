@@ -1,0 +1,47 @@
+{
+  "scale": "full",
+  "seed": 20261022,
+  "run1_row_counts": {
+    "customer_site": 501,
+    "order": 2000,
+    "delivery": 2000,
+    "vehicle": 100,
+    "vehicle_capacity": 109,
+    "driver": 120,
+    "shift": 809,
+    "travel_time_matrix": 120870,
+    "time_window": 2000,
+    "route": 604,
+    "route_stop": 1915,
+    "delivery_outcome": 1907,
+    "status_event": 10246
+  },
+  "run2_row_counts": {
+    "customer_site": 501,
+    "order": 2000,
+    "delivery": 2000,
+    "vehicle": 100,
+    "vehicle_capacity": 109,
+    "driver": 120,
+    "shift": 809,
+    "travel_time_matrix": 120870,
+    "time_window": 2000,
+    "route": 604,
+    "route_stop": 1915,
+    "delivery_outcome": 1907,
+    "status_event": 10246
+  },
+  "row_counts_identical": true,
+  "files_compared": 22,
+  "checksums_identical": true,
+  "mismatched_files": [],
+  "sample_checksums": {
+    "csv/customer_site.csv": "3adb80e3194847e4fbdbeb5159f6a1c40bbf2799550e1af3d456d138e3466244",
+    "csv/delivery.csv": "a41908550c7a6d36bed90833a0eb8fbc0210da9f5f0647dc6b507bcb76a78d74",
+    "csv/delivery_outcome.csv": "31a6bef0c72d52bfb936bb338e5810ca1abf58cde17b5465f73c15619e3ab41c",
+    "csv/driver.csv": "24ef04a80d565322a835dcb52330f5ec89a6de9d27894d0fa3124c95b7405ced",
+    "csv/order.csv": "ea46f8bb057b3118a3cbdee4cd50a077d6425274c4cf8f92a7660b45560556cf"
+  },
+  "control_different_seed_differs": true,
+  "result": "PASS"
+}

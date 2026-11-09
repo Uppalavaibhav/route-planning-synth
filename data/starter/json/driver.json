@@ -1,0 +1,122 @@
+[
+ {
+  "driver_id": "DRV-000001",
+  "driver_label": "Driver 000001",
+  "license_class": "LMV",
+  "max_vehicle_class_rank": 2,
+  "hire_date": "2022-01-06",
+  "status": "ACTIVE"
+ },
+ {
+  "driver_id": "DRV-000002",
+  "driver_label": "Driver 000002",
+  "license_class": "HMV",
+  "max_vehicle_class_rank": 4,
+  "hire_date": "2025-02-20",
+  "status": "ACTIVE"
+ },
+ {
+  "driver_id": "DRV-000003",
+  "driver_label": "Driver 000003",
+  "license_class": "HMV",
+  "max_vehicle_class_rank": 4,
+  "hire_date": "2023-04-05",
+  "status": "ACTIVE"
+ },
+ {
+  "driver_id": "DRV-000004",
+  "driver_label": "Driver 000004",
+  "license_class": "HMV",
+  "max_vehicle_class_rank": 4,
+  "hire_date": "2022-02-15",
+  "status": "ACTIVE"
+ },
+ {
+  "driver_id": "DRV-000005",
+  "driver_label": "Driver 000005",
+  "license_class": "HMV",
+  "max_vehicle_class_rank": 4,
+  "hire_date": "2023-04-02",
+  "status": "ACTIVE"
+ },
+ {
+  "driver_id": "DRV-000006",
+  "driver_label": "Driver 000006",
+  "license_class": "HMV",
+  "max_vehicle_class_rank": 4,
+  "hire_date": "2015-08-01",
+  "status": "ACTIVE"
+ },
+ {
+  "driver_id": "DRV-000007",
+  "driver_label": "Driver 000007",
+  "license_class": "HMV",
+  "max_vehicle_class_rank": 4,
+  "hire_date": "2017-03-30",
+  "status": "ACTIVE"
+ },
+ {
+  "driver_id": "DRV-000008",
+  "driver_label": "Driver 000008",
+  "license_class": "LMV",
+  "max_vehicle_class_rank": 2,
+  "hire_date": "2022-06-10",
+  "status": "ACTIVE"
+ },
+ {
+  "driver_id": "DRV-000009",
+  "driver_label": "Driver 000009",
+  "license_class": "HMV",
+  "max_vehicle_class_rank": 4,
+  "hire_date": "2016-10-10",
+  "status": "ACTIVE"
+ },
+ {
+  "driver_id": "DRV-000010",
+  "driver_label": "Driver 000010",
+  "license_class": "LMV",
+  "max_vehicle_class_rank": 2,
+  "hire_date": "2020-08-20",
+  "status": "ACTIVE"
+ },
+ {
+  "driver_id": "DRV-000011",
+  "driver_label": "Driver 000011",
+  "license_class": "LMV",
+  "max_vehicle_class_rank": 2,
+  "hire_date": "2023-09-02",
+  "status": "ACTIVE"
+ },
+ {
+  "driver_id": "DRV-000012",
+  "driver_label": "Driver 000012",
+  "license_class": "LMV",
+  "max_vehicle_class_rank": 2,
+  "hire_date": "2020-08-10",
+  "status": "ACTIVE"
+ },
+ {
+  "driver_id": "DRV-000013",
+  "driver_label": "Driver 000013",
+  "license_class": "LMV",
+  "max_vehicle_class_rank": 2,
+  "hire_date": "2019-03-12",
+  "status": "ACTIVE"
+ },
+ {
+  "driver_id": "DRV-000014",
+  "driver_label": "Driver 000014",
+  "license_class": "HMV",
+  "max_vehicle_class_rank": 4,
+  "hire_date": "2019-02-24",
+  "status": "ACTIVE"
+ },
+ {
+  "driver_id": "DRV-000015",
+  "driver_label": "Driver 000015",
+  "license_class": "LMV",
+  "max_vehicle_class_rank": 2,
+  "hire_date": "2020-01-16",
+  "status": "ACTIVE"
+ }
+]

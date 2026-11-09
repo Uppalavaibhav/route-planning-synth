@@ -1,0 +1,68 @@
+{
+  "baseline": {
+    "violations": 0,
+    "checks": {
+      "pk_uniqueness_required_enum_idformat": 0,
+      "foreign_keys": 0,
+      "injectable_anomaly_rules": 0,
+      "date_ordering": 0,
+      "arithmetic_reconciliation_and_matrix_reproducibility": 0,
+      "business_constraints": 0,
+      "acceptance_lifecycle_duplicates": 0
+    },
+    "status": "PASS"
+  },
+  "final_with_injected_anomalies": {
+    "checks": {
+      "pk_uniqueness_required_enum_idformat": 0,
+      "foreign_keys": 0,
+      "injectable_anomaly_rules": 12,
+      "date_ordering": 0,
+      "arithmetic_reconciliation_and_matrix_reproducibility": 0,
+      "business_constraints": 0,
+      "acceptance_lifecycle_duplicates": 0
+    },
+    "detection": {
+      "tp": 12,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "collateral_findings": 0,
+      "collateral_examples": [],
+      "by_issue_type": {
+        "ARRIVAL_BEFORE_PREV_DEPARTURE": {
+          "injected": 2,
+          "detected": 2,
+          "false_positives": 0
+        },
+        "COORDINATE_OUTSIDE_REGION": {
+          "injected": 2,
+          "detected": 2,
+          "false_positives": 0
+        },
+        "DRIVER_SHIFT_EXCEEDED": {
+          "injected": 2,
+          "detected": 2,
+          "false_positives": 0
+        },
+        "ROUTE_EXCEEDS_CAPACITY": {
+          "injected": 2,
+          "detected": 2,
+          "false_positives": 0
+        },
+        "STOP_DUPLICATED": {
+          "injected": 2,
+          "detected": 2,
+          "false_positives": 0
+        },
+        "STOP_OMITTED": {
+          "injected": 2,
+          "detected": 2,
+          "false_positives": 0
+        }
+      }
+    }
+  },
+  "reproducibility": "see docs/reproducibility_report.json (python repro_check.py)"
+}

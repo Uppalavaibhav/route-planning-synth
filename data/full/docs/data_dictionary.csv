@@ -1,0 +1,142 @@
+table,entity,field,type,required,allowed,unit,unique,pattern,rule
+customer_site,CustomerSite,site_id,string,True,,,True,SITE-\d{6},SITE-000000 is the depot; customers SITE-000001..
+customer_site,CustomerSite,site_name,string,True,,,False,,"synthetic label, non-empty"
+customer_site,CustomerSite,site_type,enum,True,CUSTOMER|DEPOT,,False,,
+customer_site,CustomerSite,site_category,enum,True,RETAIL|WAREHOUSE|CLINIC|SCHOOL|OFFICE|RESTAURANT|DEPOT,,False,,
+customer_site,CustomerSite,zone,enum,True,CENTRAL|NORTH|SOUTH|EAST|WEST,,False,,derived from offset to depot (<5 km = CENTRAL)
+customer_site,CustomerSite,latitude,float,True,,deg,False,,inside BBOX 17.20..17.60
+customer_site,CustomerSite,longitude,float,True,,deg,False,,inside BBOX 78.25..78.65
+customer_site,CustomerSite,geocode_quality,enum,True,HIGH|MEDIUM|LOW,,False,,drives ADDRESS_NOT_FOUND probability
+customer_site,CustomerSite,max_vehicle_class_rank,int,True,1..4,,False,,largest vehicle class rank allowed on site (1=VAN_S..4=TRUCK_H)
+customer_site,CustomerSite,access_restriction,enum,True,NONE|NO_TRUCK_H|VANS_ONLY,,False,,"derived: rank4=NONE, rank3=NO_TRUCK_H, rank2=VANS_ONLY"
+customer_site,CustomerSite,open_time,time,True,,HH:MM,False,,open_time < close_time
+customer_site,CustomerSite,close_time,time,True,,HH:MM,False,,
+customer_site,CustomerSite,service_factor,float,True,,x,False,,0.8..1.6 multiplier on service duration
+customer_site,CustomerSite,status,enum,True,ACTIVE|INACTIVE,,False,,
+customer_site,CustomerSite,effective_from,date,True,,,False,,
+customer_site,CustomerSite,effective_to,date,False,,,False,,blank = open-ended
+order,Order,order_id,string,True,,,True,ORD-2026-\d{6},
+order,Order,site_id,string,True,,,False,,FK customer_site
+order,Order,order_date,date,True,,,False,,< requested_date
+order,Order,requested_date,date,True,,,False,,= delivery.planned_date
+order,Order,demand_kg,float,True,,kg,False,,> 0
+order,Order,demand_volume_m3,float,True,,m3,False,,> 0; = demand_kg / density(180..450 kg/m3)
+order,Order,priority,enum,True,1|2|3,,False,,"1=urgent, 2=standard, 3=deferrable"
+order,Order,order_status,enum,True,DELIVERED|FAILED|UNSERVED,,False,,terminal state; = delivery.delivery_status (history in status_event)
+delivery,Delivery,delivery_id,string,True,,,True,DEL-2026-\d{6},
+delivery,Delivery,order_id,string,True,,,True,,FK order
+delivery,Delivery,site_id,string,True,,,False,,FK customer_site; = order.site_id
+delivery,Delivery,planned_date,date,True,,,False,,
+delivery,Delivery,demand_kg,float,True,,kg,False,,= order.demand_kg
+delivery,Delivery,demand_volume_m3,float,True,,m3,False,,= order.demand_volume_m3
+delivery,Delivery,priority,enum,True,1|2|3,,False,,= order.priority
+delivery,Delivery,service_minutes,float,True,,min,False,,"clip((6+0.012*kg)*site.service_factor, 5, 60)"
+delivery,Delivery,assignment_status,enum,True,ASSIGNED|UNSERVED,,False,,
+delivery,Delivery,assigned_route_id,string,False,,,False,,required iff ASSIGNED
+delivery,Delivery,unserved_reason_code,enum,False,NO_FEASIBLE_VEHICLE|TIME_WINDOW_INFEASIBLE|FLEET_EXHAUSTED,,False,,required iff UNSERVED
+delivery,Delivery,delivery_status,enum,True,DELIVERED|FAILED|UNSERVED,,False,,terminal state of lifecycle
+vehicle,Vehicle,vehicle_id,string,True,,,True,VEH-\d{6},
+vehicle,Vehicle,registration_no,string,True,,,True,,synthetic plate
+vehicle,Vehicle,vehicle_class,enum,True,VAN_S|VAN_L|TRUCK_M|TRUCK_H,,False,,
+vehicle,Vehicle,class_rank,int,True,1..4,,False,,"VAN_S=1, VAN_L=2, TRUCK_M=3, TRUCK_H=4"
+vehicle,Vehicle,cost_per_km,float,True,,INR/km,False,,
+vehicle,Vehicle,fixed_cost_per_day,float,True,,INR,False,,
+vehicle,Vehicle,depot_site_id,string,True,,,False,,FK customer_site (DEPOT)
+vehicle,Vehicle,status,enum,True,ACTIVE|MAINTENANCE,,False,,MAINTENANCE vehicles never get shifts
+vehicle,Vehicle,commissioned_date,date,True,,,False,,
+vehicle_capacity,VehicleCapacity,capacity_id,string,True,,,True,VCAP-\d{6},
+vehicle_capacity,VehicleCapacity,vehicle_id,string,True,,,False,,FK vehicle
+vehicle_capacity,VehicleCapacity,version,int,True,,,False,,">=1, increments per vehicle"
+vehicle_capacity,VehicleCapacity,effective_from,date,True,,,False,,
+vehicle_capacity,VehicleCapacity,effective_to,date,False,,,False,,inclusive; blank = current; versions must not overlap
+vehicle_capacity,VehicleCapacity,max_weight_kg,float,True,,kg,False,,
+vehicle_capacity,VehicleCapacity,max_volume_m3,float,True,,m3,False,,
+vehicle_capacity,VehicleCapacity,max_stops,int,True,,,False,,>0
+driver,Driver,driver_id,string,True,,,True,DRV-\d{6},
+driver,Driver,driver_label,string,True,,,False,,pseudonym 'Driver NNNNNN'
+driver,Driver,license_class,enum,True,LMV|HMV,,False,,
+driver,Driver,max_vehicle_class_rank,int,True,2|4,,False,,"LMV=2 (vans), HMV=4 (all)"
+driver,Driver,hire_date,date,True,,,False,,
+driver,Driver,status,enum,True,ACTIVE|INACTIVE,,False,,
+shift,Shift,shift_id,string,True,,,True,SHF-2026-\d{6},
+shift,Shift,driver_id,string,True,,,False,,FK driver; one shift per driver per date; driver rank >= vehicle rank
+shift,Shift,vehicle_id,string,True,,,False,,FK vehicle; one shift per vehicle per date
+shift,Shift,shift_date,date,True,,,False,,
+shift,Shift,shift_start,datetime,True,,,False,,
+shift,Shift,shift_end,datetime,True,,,False,,> shift_start
+shift,Shift,break_minutes,int,True,,min,False,,
+shift,Shift,max_duty_minutes,int,True,,min,False,,= (shift_end-shift_start) - break_minutes
+shift,Shift,shift_status,enum,True,COMPLETED|STANDBY,,False,,
+travel_time_matrix,TravelTimeMatrix,matrix_date,date,True,,,False,,
+travel_time_matrix,TravelTimeMatrix,from_site_id,string,True,,,False,,FK customer_site
+travel_time_matrix,TravelTimeMatrix,to_site_id,string,True,,,False,,FK customer_site
+travel_time_matrix,TravelTimeMatrix,distance_km,float,True,,km,False,,"haversine * circuity(1.20..1.45, seeded, symmetric); constant across days"
+travel_time_matrix,TravelTimeMatrix,base_minutes,float,True,,min,False,,distance_km / 32 km/h * 60
+travel_time_matrix,TravelTimeMatrix,traffic_scenario,enum,True,NORMAL|RAIN|EVENT_CONGESTION|HOLIDAY_LIGHT,,False,,one per day; Sunday = HOLIDAY_LIGHT
+travel_time_matrix,TravelTimeMatrix,scenario_multiplier,float,True,,x,False,,scenario factor * edge-day noise (0.95..1.08)
+travel_time_matrix,TravelTimeMatrix,minutes_offpeak,float,True,,min,False,,"round(base*mult*1.00,2)"
+travel_time_matrix,TravelTimeMatrix,minutes_am_peak,float,True,,min,False,,"round(base*mult*1.45,2); 07:00-10:00"
+travel_time_matrix,TravelTimeMatrix,minutes_midday,float,True,,min,False,,"round(base*mult*1.10,2); 10:00-16:30"
+travel_time_matrix,TravelTimeMatrix,minutes_pm_peak,float,True,,min,False,,"round(base*mult*1.60,2); 16:30-20:00"
+time_window,TimeWindow,tw_id,string,True,,,True,TW-\d{6},
+time_window,TimeWindow,delivery_id,string,True,,,True,,FK delivery
+time_window,TimeWindow,window_start,datetime,True,,,False,,"on planned_date, >= site.open_time"
+time_window,TimeWindow,window_end,datetime,True,,,False,,"> window_start, <= site.close_time"
+time_window,TimeWindow,window_type,enum,True,HARD|SOFT,,False,,
+time_window,TimeWindow,grace_minutes,int,True,,min,False,,"HARD=15 (refusal beyond), SOFT=30 (planner tolerance)"
+route,Route,route_id,string,True,,,True,RTE-2026-\d{6},
+route,Route,route_date,date,True,,,False,,= shift.shift_date
+route,Route,vehicle_id,string,True,,,False,,= shift.vehicle_id
+route,Route,driver_id,string,True,,,False,,= shift.driver_id
+route,Route,shift_id,string,True,,,True,,
+route,Route,vehicle_capacity_id,string,True,,,False,,capacity version in force on route_date
+route,Route,depot_site_id,string,True,,,False,,
+route,Route,capacity_kg_at_plan,float,True,,kg,False,,= vehicle_capacity.max_weight_kg
+route,Route,capacity_m3_at_plan,float,True,,m3,False,,
+route,Route,planned_load_kg,float,True,,kg,False,,= SUM(delivery.demand_kg assigned) <= capacity
+route,Route,planned_load_m3,float,True,,m3,False,,= SUM(delivery volume) <= capacity
+route,Route,stop_count,int,True,,,False,,= COUNT(route_stop); <= max_stops
+route,Route,planned_departure,datetime,True,,,False,,>= shift_start + 20 min
+route,Route,planned_return,datetime,True,,,False,,<= shift_end - 15 min
+route,Route,planned_distance_km,float,True,,km,False,,= SUM(leg_distance_km) + return_leg_km
+route,Route,planned_drive_minutes,float,True,,min,False,,= SUM(leg_travel_minutes) + return_leg_minutes
+route,Route,return_leg_km,float,True,,km,False,,
+route,Route,return_leg_minutes,float,True,,min,False,,
+route,Route,route_status,enum,True,COMPLETED,,False,,terminal state (history in status_event)
+route,Route,actual_departure,datetime,True,,,False,,
+route,Route,actual_return,datetime,True,,,False,,>= actual_departure; <= shift_end
+route,Route,delivered_count,int,True,,,False,,count of DELIVERED outcomes
+route,Route,failed_count,int,True,,,False,,count of FAILED outcomes; delivered+failed = stop_count
+route,Route,load_utilization_pct,float,True,,%,False,,= planned_load_kg / capacity_kg_at_plan * 100
+route_stop,RouteStop,stop_id,string,True,,,True,STOP-RTE-2026-\d{6}-\d{3},STOP-<route_id>-<seq>
+route_stop,RouteStop,route_id,string,True,,,False,,
+route_stop,RouteStop,stop_sequence,int,True,,,False,,"1..n contiguous, unique per route"
+route_stop,RouteStop,delivery_id,string,True,,,False,,each delivery appears once
+route_stop,RouteStop,site_id,string,True,,,False,,= delivery.site_id
+route_stop,RouteStop,planned_arrival,datetime,True,,,False,,= prev planned_departure + leg_travel_minutes
+route_stop,RouteStop,planned_service_start,datetime,True,,,False,,"= max(planned_arrival, window_start)"
+route_stop,RouteStop,planned_departure,datetime,True,,,False,,= planned_service_start + service_minutes
+route_stop,RouteStop,service_minutes,float,True,,min,False,,
+route_stop,RouteStop,leg_distance_km,float,True,,km,False,,"= matrix distance(prev,site)"
+route_stop,RouteStop,leg_travel_minutes,float,True,,min,False,,= matrix minutes in band of prev departure
+route_stop,RouteStop,load_after_stop_kg,float,True,,kg,False,,onboard weight after this stop
+delivery_outcome,DeliveryOutcome,outcome_id,string,True,,,True,OUT-2026-\d{6},
+delivery_outcome,DeliveryOutcome,stop_id,string,True,,,True,,
+delivery_outcome,DeliveryOutcome,route_id,string,True,,,False,,
+delivery_outcome,DeliveryOutcome,delivery_id,string,True,,,False,,
+delivery_outcome,DeliveryOutcome,actual_arrival,datetime,False,,,False,,blank iff NOT_ATTEMPTED; >= previous stop actual_departure
+delivery_outcome,DeliveryOutcome,actual_service_start,datetime,False,,,False,,blank if failed/not attempted
+delivery_outcome,DeliveryOutcome,actual_departure,datetime,False,,,False,,
+delivery_outcome,DeliveryOutcome,outcome_status,enum,True,DELIVERED|FAILED,,False,,
+delivery_outcome,DeliveryOutcome,reason_code,enum,False,CUSTOMER_ABSENT|ADDRESS_NOT_FOUND|HARD_WINDOW_MISSED|SITE_CLOSED|SHIFT_LIMIT_REACHED,,False,,required iff FAILED
+delivery_outcome,DeliveryOutcome,delay_minutes,float,False,,min,False,,= actual_arrival - planned_arrival
+delivery_outcome,DeliveryOutcome,window_status,enum,True,WITHIN_WINDOW|EARLY_WAITED|LATE_WITHIN_GRACE|LATE_BREACH|NOT_ATTEMPTED,,False,,
+delivery_outcome,DeliveryOutcome,actual_leg_minutes,float,False,,min,False,,
+status_event,StatusEvent (supporting),event_id,string,True,,,True,EVT-\d{7},
+status_event,StatusEvent (supporting),entity_type,enum,True,DELIVERY|ROUTE,,False,,
+status_event,StatusEvent (supporting),entity_id,string,True,,,False,,resolves to delivery_id or route_id by entity_type
+status_event,StatusEvent (supporting),event_seq,int,True,,,False,,1.. contiguous per entity
+status_event,StatusEvent (supporting),from_status,enum,False,CREATED|SCHEDULED|DISPATCHED|DELIVERED|FAILED|UNSERVED|PLANNED|IN_PROGRESS|COMPLETED,,False,,
+status_event,StatusEvent (supporting),to_status,enum,True,CREATED|SCHEDULED|DISPATCHED|DELIVERED|FAILED|UNSERVED|PLANNED|IN_PROGRESS|COMPLETED,,False,,
+status_event,StatusEvent (supporting),event_ts,datetime,True,,,False,,non-decreasing per entity
+status_event,StatusEvent (supporting),actor_role,enum,True,SYSTEM|PLANNER|CARRIER_OPERATOR|DRIVER,,False,,

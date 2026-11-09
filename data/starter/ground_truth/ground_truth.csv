@@ -1,0 +1,13 @@
+anomaly_id,issue_type,entity_type,entity_id,route_id,related_ids,field,original_value,injected_value,detection_rule
+GT-0001,ROUTE_EXCEEDS_CAPACITY,ROUTE,RTE-2026-000013,RTE-2026-000013,DEL-2026-000075,delivery.demand_kg,405.0,694.4,planned_load_kg > capacity_kg_at_plan
+GT-0002,ROUTE_EXCEEDS_CAPACITY,ROUTE,RTE-2026-000024,RTE-2026-000024,DEL-2026-000055,delivery.demand_kg,63.1,367.1,planned_load_kg > capacity_kg_at_plan
+GT-0003,STOP_OMITTED,ROUTE,RTE-2026-000002,RTE-2026-000002,STOP-RTE-2026-000002-001;DEL-2026-000037,route_stop,present,row removed,delivery.assigned_route_id has no route_stop / COUNT(route_stop) < stop_count
+GT-0004,STOP_OMITTED,ROUTE,RTE-2026-000004,RTE-2026-000004,STOP-RTE-2026-000004-002;DEL-2026-000091,route_stop,present,row removed,delivery.assigned_route_id has no route_stop / COUNT(route_stop) < stop_count
+GT-0005,STOP_DUPLICATED,ROUTE,RTE-2026-000031,RTE-2026-000031,STOP-RTE-2026-000031-004;STOP-RTE-2026-000031-003;DEL-2026-000082,route_stop,1 stop,2 stops same delivery,delivery_id occurs >1 time in route_stop / rows > stop_count
+GT-0006,STOP_DUPLICATED,ROUTE,RTE-2026-000007,RTE-2026-000007,STOP-RTE-2026-000007-006;STOP-RTE-2026-000007-005;DEL-2026-000059,route_stop,1 stop,2 stops same delivery,delivery_id occurs >1 time in route_stop / rows > stop_count
+GT-0007,ARRIVAL_BEFORE_PREV_DEPARTURE,DELIVERY_OUTCOME,OUT-2026-000069,RTE-2026-000018,OUT-2026-000068,actual_arrival,2026-10-02T14:26:06,2026-10-02T13:58:45,actual_arrival < previous stop actual_departure
+GT-0008,ARRIVAL_BEFORE_PREV_DEPARTURE,DELIVERY_OUTCOME,OUT-2026-000117,RTE-2026-000032,OUT-2026-000116,actual_arrival,2026-10-03T14:08:02,2026-10-03T13:05:21,actual_arrival < previous stop actual_departure
+GT-0009,DRIVER_SHIFT_EXCEEDED,ROUTE,RTE-2026-000036,RTE-2026-000036,SHF-2026-000038,route.actual_return,2026-10-04T16:54:58,2026-10-04T18:52:55,route.actual_return > shift.shift_end
+GT-0010,DRIVER_SHIFT_EXCEEDED,ROUTE,RTE-2026-000022,RTE-2026-000022,SHF-2026-000029,route.actual_return,2026-10-03T16:58:00,2026-10-03T20:12:12,route.actual_return > shift.shift_end
+GT-0011,COORDINATE_OUTSIDE_REGION,CUSTOMER_SITE,SITE-000030,,,"latitude,longitude","17.321549,78.289017","26.066485,83.046275",lat/lon outside BBOX 17.20..17.60 / 78.25..78.65
+GT-0012,COORDINATE_OUTSIDE_REGION,CUSTOMER_SITE,SITE-000006,,,"latitude,longitude","17.304433,78.526661","25.766851,86.531228",lat/lon outside BBOX 17.20..17.60 / 78.25..78.65

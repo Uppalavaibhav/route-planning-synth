@@ -1,0 +1,132 @@
+[
+ {
+  "capacity_id": "VCAP-000001",
+  "vehicle_id": "VEH-000001",
+  "version": 1,
+  "effective_from": "2026-01-01",
+  "effective_to": null,
+  "max_weight_kg": 800.0,
+  "max_volume_m3": 5.0,
+  "max_stops": 12
+ },
+ {
+  "capacity_id": "VCAP-000002",
+  "vehicle_id": "VEH-000002",
+  "version": 1,
+  "effective_from": "2026-01-01",
+  "effective_to": null,
+  "max_weight_kg": 1500.0,
+  "max_volume_m3": 11.0,
+  "max_stops": 15
+ },
+ {
+  "capacity_id": "VCAP-000003",
+  "vehicle_id": "VEH-000003",
+  "version": 1,
+  "effective_from": "2026-01-01",
+  "effective_to": null,
+  "max_weight_kg": 1500.0,
+  "max_volume_m3": 11.0,
+  "max_stops": 15
+ },
+ {
+  "capacity_id": "VCAP-000004",
+  "vehicle_id": "VEH-000004",
+  "version": 1,
+  "effective_from": "2026-01-01",
+  "effective_to": null,
+  "max_weight_kg": 800.0,
+  "max_volume_m3": 5.0,
+  "max_stops": 12
+ },
+ {
+  "capacity_id": "VCAP-000005",
+  "vehicle_id": "VEH-000005",
+  "version": 1,
+  "effective_from": "2026-01-01",
+  "effective_to": null,
+  "max_weight_kg": 1500.0,
+  "max_volume_m3": 11.0,
+  "max_stops": 15
+ },
+ {
+  "capacity_id": "VCAP-000006",
+  "vehicle_id": "VEH-000006",
+  "version": 1,
+  "effective_from": "2026-01-01",
+  "effective_to": null,
+  "max_weight_kg": 4000.0,
+  "max_volume_m3": 24.0,
+  "max_stops": 18
+ },
+ {
+  "capacity_id": "VCAP-000007",
+  "vehicle_id": "VEH-000007",
+  "version": 1,
+  "effective_from": "2026-01-01",
+  "effective_to": null,
+  "max_weight_kg": 8000.0,
+  "max_volume_m3": 45.0,
+  "max_stops": 20
+ },
+ {
+  "capacity_id": "VCAP-000008",
+  "vehicle_id": "VEH-000008",
+  "version": 1,
+  "effective_from": "2026-01-01",
+  "effective_to": null,
+  "max_weight_kg": 800.0,
+  "max_volume_m3": 5.0,
+  "max_stops": 12
+ },
+ {
+  "capacity_id": "VCAP-000009",
+  "vehicle_id": "VEH-000009",
+  "version": 1,
+  "effective_from": "2026-01-01",
+  "effective_to": "2026-10-02",
+  "max_weight_kg": 4000.0,
+  "max_volume_m3": 24.0,
+  "max_stops": 18
+ },
+ {
+  "capacity_id": "VCAP-000010",
+  "vehicle_id": "VEH-000009",
+  "version": 2,
+  "effective_from": "2026-10-03",
+  "effective_to": null,
+  "max_weight_kg": 3680.0,
+  "max_volume_m3": 22.08,
+  "max_stops": 18
+ },
+ {
+  "capacity_id": "VCAP-000011",
+  "vehicle_id": "VEH-000010",
+  "version": 1,
+  "effective_from": "2026-01-01",
+  "effective_to": null,
+  "max_weight_kg": 800.0,
+  "max_volume_m3": 5.0,
+  "max_stops": 12
+ },
+ {
+  "capacity_id": "VCAP-000012",
+  "vehicle_id": "VEH-000011",
+  "version": 1,
+  "effective_from": "2026-01-01",
+  "effective_to": null,
+  "max_weight_kg": 1500.0,
+  "max_volume_m3": 11.0,
+  "max_stops": 15
+ },
+ {
+  "capacity_id": "VCAP-000013",
+  "vehicle_id": "VEH-000012",
+  "version": 1,
+  "effective_from": "2026-01-01",
+  "effective_to": null,
+  "max_weight_kg": 4000.0,
+  "max_volume_m3": 24.0,
+  "max_stops": 18
+ }
+]

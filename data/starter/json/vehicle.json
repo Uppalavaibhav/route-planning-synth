@@ -1,0 +1,134 @@
+[
+ {
+  "vehicle_id": "VEH-000001",
+  "registration_no": "TS09ZZ0001",
+  "vehicle_class": "VAN_S",
+  "class_rank": 1,
+  "cost_per_km": 9.0,
+  "fixed_cost_per_day": 900.0,
+  "depot_site_id": "SITE-000000",
+  "status": "ACTIVE",
+  "commissioned_date": "2023-03-22"
+ },
+ {
+  "vehicle_id": "VEH-000002",
+  "registration_no": "TS09ZZ0002",
+  "vehicle_class": "VAN_L",
+  "class_rank": 2,
+  "cost_per_km": 12.5,
+  "fixed_cost_per_day": 1300.0,
+  "depot_site_id": "SITE-000000",
+  "status": "ACTIVE",
+  "commissioned_date": "2024-07-01"
+ },
+ {
+  "vehicle_id": "VEH-000003",
+  "registration_no": "TS09ZZ0003",
+  "vehicle_class": "VAN_L",
+  "class_rank": 2,
+  "cost_per_km": 12.5,
+  "fixed_cost_per_day": 1300.0,
+  "depot_site_id": "SITE-000000",
+  "status": "ACTIVE",
+  "commissioned_date": "2019-08-18"
+ },
+ {
+  "vehicle_id": "VEH-000004",
+  "registration_no": "TS09ZZ0004",
+  "vehicle_class": "VAN_S",
+  "class_rank": 1,
+  "cost_per_km": 9.0,
+  "fixed_cost_per_day": 900.0,
+  "depot_site_id": "SITE-000000",
+  "status": "MAINTENANCE",
+  "commissioned_date": "2022-02-13"
+ },
+ {
+  "vehicle_id": "VEH-000005",
+  "registration_no": "TS09ZZ0005",
+  "vehicle_class": "VAN_L",
+  "class_rank": 2,
+  "cost_per_km": 12.5,
+  "fixed_cost_per_day": 1300.0,
+  "depot_site_id": "SITE-000000",
+  "status": "ACTIVE",
+  "commissioned_date": "2023-02-16"
+ },
+ {
+  "vehicle_id": "VEH-000006",
+  "registration_no": "TS09ZZ0006",
+  "vehicle_class": "TRUCK_M",
+  "class_rank": 3,
+  "cost_per_km": 21.0,
+  "fixed_cost_per_day": 2200.0,
+  "depot_site_id": "SITE-000000",
+  "status": "ACTIVE",
+  "commissioned_date": "2024-11-02"
+ },
+ {
+  "vehicle_id": "VEH-000007",
+  "registration_no": "TS09ZZ0007",
+  "vehicle_class": "TRUCK_H",
+  "class_rank": 4,
+  "cost_per_km": 32.0,
+  "fixed_cost_per_day": 3600.0,
+  "depot_site_id": "SITE-000000",
+  "status": "ACTIVE",
+  "commissioned_date": "2024-03-09"
+ },
+ {
+  "vehicle_id": "VEH-000008",
+  "registration_no": "TS09ZZ0008",
+  "vehicle_class": "VAN_S",
+  "class_rank": 1,
+  "cost_per_km": 9.0,
+  "fixed_cost_per_day": 900.0,
+  "depot_site_id": "SITE-000000",
+  "status": "ACTIVE",
+  "commissioned_date": "2019-08-11"
+ },
+ {
+  "vehicle_id": "VEH-000009",
+  "registration_no": "TS09ZZ0009",
+  "vehicle_class": "TRUCK_M",
+  "class_rank": 3,
+  "cost_per_km": 21.0,
+  "fixed_cost_per_day": 2200.0,
+  "depot_site_id": "SITE-000000",
+  "status": "ACTIVE",
+  "commissioned_date": "2019-12-22"
+ },
+ {
+  "vehicle_id": "VEH-000010",
+  "registration_no": "TS09ZZ0010",
+  "vehicle_class": "VAN_S",
+  "class_rank": 1,
+  "cost_per_km": 9.0,
+  "fixed_cost_per_day": 900.0,
+  "depot_site_id": "SITE-000000",
+  "status": "ACTIVE",
+  "commissioned_date": "2020-04-22"
+ },
+ {
+  "vehicle_id": "VEH-000011",
+  "registration_no": "TS09ZZ0011",
+  "vehicle_class": "VAN_L",
+  "class_rank": 2,
+  "cost_per_km": 12.5,
+  "fixed_cost_per_day": 1300.0,
+  "depot_site_id": "SITE-000000",
+  "status": "ACTIVE",
+  "commissioned_date": "2024-07-04"
+ },
+ {
+  "vehicle_id": "VEH-000012",
+  "registration_no": "TS09ZZ0012",
+  "vehicle_class": "TRUCK_M",
+  "class_rank": 3,
+  "cost_per_km": 21.0,
+  "fixed_cost_per_day": 2200.0,
+  "depot_site_id": "SITE-000000",
+  "status": "ACTIVE",
+  "commissioned_date": "2021-04-22"
+ }
+]

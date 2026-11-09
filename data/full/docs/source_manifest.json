@@ -1,0 +1,9 @@
+{
+  "external_data_used": false,
+  "sources": [],
+  "statement": "All records are synthetic, generated from a fixed seed. No external datasets, scraped data, or personal data were used.",
+  "schema_inspiration": "Public VRPTW benchmark conventions (Solomon-style time windows, capacities); no data copied.",
+  "region": "Bounding box 17.20..17.60 N, 78.25..78.65 E (Hyderabad metro envelope) used only as a coordinate frame for synthetic points.",
+  "transformations": "n/a",
+  "fields_discarded": "n/a"
+}

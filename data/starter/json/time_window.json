@@ -1,0 +1,1602 @@
+[
+ {
+  "tw_id": "TW-000001",
+  "delivery_id": "DEL-2026-000001",
+  "window_start": "2026-10-01T14:30:00",
+  "window_end": "2026-10-01T16:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000002",
+  "delivery_id": "DEL-2026-000002",
+  "window_start": "2026-10-01T14:00:00",
+  "window_end": "2026-10-01T17:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000003",
+  "delivery_id": "DEL-2026-000003",
+  "window_start": "2026-10-01T09:00:00",
+  "window_end": "2026-10-01T11:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000004",
+  "delivery_id": "DEL-2026-000004",
+  "window_start": "2026-10-01T15:30:00",
+  "window_end": "2026-10-01T19:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000005",
+  "delivery_id": "DEL-2026-000005",
+  "window_start": "2026-10-01T15:00:00",
+  "window_end": "2026-10-01T18:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000006",
+  "delivery_id": "DEL-2026-000006",
+  "window_start": "2026-10-01T11:00:00",
+  "window_end": "2026-10-01T14:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000007",
+  "delivery_id": "DEL-2026-000007",
+  "window_start": "2026-10-01T10:30:00",
+  "window_end": "2026-10-01T13:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000008",
+  "delivery_id": "DEL-2026-000008",
+  "window_start": "2026-10-01T15:00:00",
+  "window_end": "2026-10-01T19:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000009",
+  "delivery_id": "DEL-2026-000009",
+  "window_start": "2026-10-01T13:30:00",
+  "window_end": "2026-10-01T16:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000010",
+  "delivery_id": "DEL-2026-000010",
+  "window_start": "2026-10-01T15:00:00",
+  "window_end": "2026-10-01T17:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000011",
+  "delivery_id": "DEL-2026-000011",
+  "window_start": "2026-10-01T14:00:00",
+  "window_end": "2026-10-01T16:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000012",
+  "delivery_id": "DEL-2026-000012",
+  "window_start": "2026-10-01T16:30:00",
+  "window_end": "2026-10-01T18:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000013",
+  "delivery_id": "DEL-2026-000013",
+  "window_start": "2026-10-01T13:30:00",
+  "window_end": "2026-10-01T17:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000014",
+  "delivery_id": "DEL-2026-000014",
+  "window_start": "2026-10-01T12:30:00",
+  "window_end": "2026-10-01T15:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000015",
+  "delivery_id": "DEL-2026-000015",
+  "window_start": "2026-10-01T12:30:00",
+  "window_end": "2026-10-01T14:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000016",
+  "delivery_id": "DEL-2026-000016",
+  "window_start": "2026-10-01T10:00:00",
+  "window_end": "2026-10-01T14:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000017",
+  "delivery_id": "DEL-2026-000017",
+  "window_start": "2026-10-01T09:30:00",
+  "window_end": "2026-10-01T12:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000018",
+  "delivery_id": "DEL-2026-000018",
+  "window_start": "2026-10-01T11:30:00",
+  "window_end": "2026-10-01T15:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000019",
+  "delivery_id": "DEL-2026-000019",
+  "window_start": "2026-10-01T13:30:00",
+  "window_end": "2026-10-01T16:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000020",
+  "delivery_id": "DEL-2026-000020",
+  "window_start": "2026-10-01T10:00:00",
+  "window_end": "2026-10-01T16:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000021",
+  "delivery_id": "DEL-2026-000021",
+  "window_start": "2026-10-01T12:00:00",
+  "window_end": "2026-10-01T14:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000022",
+  "delivery_id": "DEL-2026-000022",
+  "window_start": "2026-10-01T12:30:00",
+  "window_end": "2026-10-01T18:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000023",
+  "delivery_id": "DEL-2026-000023",
+  "window_start": "2026-10-01T16:30:00",
+  "window_end": "2026-10-01T19:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000024",
+  "delivery_id": "DEL-2026-000024",
+  "window_start": "2026-10-01T10:00:00",
+  "window_end": "2026-10-01T13:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000025",
+  "delivery_id": "DEL-2026-000025",
+  "window_start": "2026-10-02T12:30:00",
+  "window_end": "2026-10-02T14:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000026",
+  "delivery_id": "DEL-2026-000026",
+  "window_start": "2026-10-02T13:30:00",
+  "window_end": "2026-10-02T17:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000027",
+  "delivery_id": "DEL-2026-000027",
+  "window_start": "2026-10-02T15:30:00",
+  "window_end": "2026-10-02T18:30:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000028",
+  "delivery_id": "DEL-2026-000028",
+  "window_start": "2026-10-02T13:00:00",
+  "window_end": "2026-10-02T15:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000029",
+  "delivery_id": "DEL-2026-000029",
+  "window_start": "2026-10-02T13:30:00",
+  "window_end": "2026-10-02T15:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000030",
+  "delivery_id": "DEL-2026-000030",
+  "window_start": "2026-10-02T12:00:00",
+  "window_end": "2026-10-02T14:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000031",
+  "delivery_id": "DEL-2026-000031",
+  "window_start": "2026-10-02T13:30:00",
+  "window_end": "2026-10-02T16:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000032",
+  "delivery_id": "DEL-2026-000032",
+  "window_start": "2026-10-02T11:00:00",
+  "window_end": "2026-10-02T17:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000033",
+  "delivery_id": "DEL-2026-000033",
+  "window_start": "2026-10-02T17:00:00",
+  "window_end": "2026-10-02T19:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000034",
+  "delivery_id": "DEL-2026-000034",
+  "window_start": "2026-10-02T14:00:00",
+  "window_end": "2026-10-02T17:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000035",
+  "delivery_id": "DEL-2026-000035",
+  "window_start": "2026-10-02T13:30:00",
+  "window_end": "2026-10-02T15:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000036",
+  "delivery_id": "DEL-2026-000036",
+  "window_start": "2026-10-01T15:00:00",
+  "window_end": "2026-10-01T18:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000037",
+  "delivery_id": "DEL-2026-000037",
+  "window_start": "2026-10-01T08:00:00",
+  "window_end": "2026-10-01T12:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000038",
+  "delivery_id": "DEL-2026-000038",
+  "window_start": "2026-10-01T11:30:00",
+  "window_end": "2026-10-01T13:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000039",
+  "delivery_id": "DEL-2026-000039",
+  "window_start": "2026-10-01T10:00:00",
+  "window_end": "2026-10-01T13:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000040",
+  "delivery_id": "DEL-2026-000040",
+  "window_start": "2026-10-01T13:00:00",
+  "window_end": "2026-10-01T15:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000041",
+  "delivery_id": "DEL-2026-000041",
+  "window_start": "2026-10-01T08:30:00",
+  "window_end": "2026-10-01T10:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000042",
+  "delivery_id": "DEL-2026-000042",
+  "window_start": "2026-10-02T14:30:00",
+  "window_end": "2026-10-02T16:30:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000043",
+  "delivery_id": "DEL-2026-000043",
+  "window_start": "2026-10-02T12:30:00",
+  "window_end": "2026-10-02T14:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000044",
+  "delivery_id": "DEL-2026-000044",
+  "window_start": "2026-10-02T14:00:00",
+  "window_end": "2026-10-02T17:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000045",
+  "delivery_id": "DEL-2026-000045",
+  "window_start": "2026-10-02T12:00:00",
+  "window_end": "2026-10-02T18:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000046",
+  "delivery_id": "DEL-2026-000046",
+  "window_start": "2026-10-02T12:00:00",
+  "window_end": "2026-10-02T15:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000047",
+  "delivery_id": "DEL-2026-000047",
+  "window_start": "2026-10-02T11:00:00",
+  "window_end": "2026-10-02T13:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000048",
+  "delivery_id": "DEL-2026-000048",
+  "window_start": "2026-10-02T11:00:00",
+  "window_end": "2026-10-02T17:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000049",
+  "delivery_id": "DEL-2026-000049",
+  "window_start": "2026-10-02T14:30:00",
+  "window_end": "2026-10-02T18:30:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000050",
+  "delivery_id": "DEL-2026-000050",
+  "window_start": "2026-10-03T09:30:00",
+  "window_end": "2026-10-03T11:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000051",
+  "delivery_id": "DEL-2026-000051",
+  "window_start": "2026-10-03T10:00:00",
+  "window_end": "2026-10-03T12:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000052",
+  "delivery_id": "DEL-2026-000052",
+  "window_start": "2026-10-03T12:30:00",
+  "window_end": "2026-10-03T16:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000053",
+  "delivery_id": "DEL-2026-000053",
+  "window_start": "2026-10-03T12:00:00",
+  "window_end": "2026-10-03T15:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000054",
+  "delivery_id": "DEL-2026-000054",
+  "window_start": "2026-10-03T09:00:00",
+  "window_end": "2026-10-03T12:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000055",
+  "delivery_id": "DEL-2026-000055",
+  "window_start": "2026-10-03T12:30:00",
+  "window_end": "2026-10-03T16:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000056",
+  "delivery_id": "DEL-2026-000056",
+  "window_start": "2026-10-03T12:00:00",
+  "window_end": "2026-10-03T16:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000057",
+  "delivery_id": "DEL-2026-000057",
+  "window_start": "2026-10-01T12:00:00",
+  "window_end": "2026-10-01T15:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000058",
+  "delivery_id": "DEL-2026-000058",
+  "window_start": "2026-10-01T10:30:00",
+  "window_end": "2026-10-01T16:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000059",
+  "delivery_id": "DEL-2026-000059",
+  "window_start": "2026-10-01T14:00:00",
+  "window_end": "2026-10-01T18:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000060",
+  "delivery_id": "DEL-2026-000060",
+  "window_start": "2026-10-01T12:00:00",
+  "window_end": "2026-10-01T18:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000061",
+  "delivery_id": "DEL-2026-000061",
+  "window_start": "2026-10-01T09:00:00",
+  "window_end": "2026-10-01T12:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000062",
+  "delivery_id": "DEL-2026-000062",
+  "window_start": "2026-10-01T14:00:00",
+  "window_end": "2026-10-01T16:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000063",
+  "delivery_id": "DEL-2026-000063",
+  "window_start": "2026-10-01T13:00:00",
+  "window_end": "2026-10-01T19:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000064",
+  "delivery_id": "DEL-2026-000064",
+  "window_start": "2026-10-01T09:00:00",
+  "window_end": "2026-10-01T12:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000065",
+  "delivery_id": "DEL-2026-000065",
+  "window_start": "2026-10-01T14:00:00",
+  "window_end": "2026-10-01T20:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000066",
+  "delivery_id": "DEL-2026-000066",
+  "window_start": "2026-10-01T09:00:00",
+  "window_end": "2026-10-01T11:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000067",
+  "delivery_id": "DEL-2026-000067",
+  "window_start": "2026-10-02T12:00:00",
+  "window_end": "2026-10-02T15:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000068",
+  "delivery_id": "DEL-2026-000068",
+  "window_start": "2026-10-02T12:00:00",
+  "window_end": "2026-10-02T16:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000069",
+  "delivery_id": "DEL-2026-000069",
+  "window_start": "2026-10-02T11:30:00",
+  "window_end": "2026-10-02T17:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000070",
+  "delivery_id": "DEL-2026-000070",
+  "window_start": "2026-10-02T12:30:00",
+  "window_end": "2026-10-02T16:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000071",
+  "delivery_id": "DEL-2026-000071",
+  "window_start": "2026-10-02T13:00:00",
+  "window_end": "2026-10-02T16:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000072",
+  "delivery_id": "DEL-2026-000072",
+  "window_start": "2026-10-02T09:30:00",
+  "window_end": "2026-10-02T15:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000073",
+  "delivery_id": "DEL-2026-000073",
+  "window_start": "2026-10-02T12:00:00",
+  "window_end": "2026-10-02T18:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000074",
+  "delivery_id": "DEL-2026-000074",
+  "window_start": "2026-10-02T12:00:00",
+  "window_end": "2026-10-02T15:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000075",
+  "delivery_id": "DEL-2026-000075",
+  "window_start": "2026-10-02T09:00:00",
+  "window_end": "2026-10-02T11:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000076",
+  "delivery_id": "DEL-2026-000076",
+  "window_start": "2026-10-02T11:00:00",
+  "window_end": "2026-10-02T14:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000077",
+  "delivery_id": "DEL-2026-000077",
+  "window_start": "2026-10-03T11:30:00",
+  "window_end": "2026-10-03T17:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000078",
+  "delivery_id": "DEL-2026-000078",
+  "window_start": "2026-10-03T13:00:00",
+  "window_end": "2026-10-03T17:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000079",
+  "delivery_id": "DEL-2026-000079",
+  "window_start": "2026-10-03T16:00:00",
+  "window_end": "2026-10-03T19:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000080",
+  "delivery_id": "DEL-2026-000080",
+  "window_start": "2026-10-03T12:30:00",
+  "window_end": "2026-10-03T14:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000081",
+  "delivery_id": "DEL-2026-000081",
+  "window_start": "2026-10-03T14:30:00",
+  "window_end": "2026-10-03T16:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000082",
+  "delivery_id": "DEL-2026-000082",
+  "window_start": "2026-10-03T11:30:00",
+  "window_end": "2026-10-03T15:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000083",
+  "delivery_id": "DEL-2026-000083",
+  "window_start": "2026-10-03T19:00:00",
+  "window_end": "2026-10-03T21:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000084",
+  "delivery_id": "DEL-2026-000084",
+  "window_start": "2026-10-03T09:00:00",
+  "window_end": "2026-10-03T15:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000085",
+  "delivery_id": "DEL-2026-000085",
+  "window_start": "2026-10-04T13:30:00",
+  "window_end": "2026-10-04T15:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000086",
+  "delivery_id": "DEL-2026-000086",
+  "window_start": "2026-10-04T15:00:00",
+  "window_end": "2026-10-04T18:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000087",
+  "delivery_id": "DEL-2026-000087",
+  "window_start": "2026-10-04T12:00:00",
+  "window_end": "2026-10-04T14:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000088",
+  "delivery_id": "DEL-2026-000088",
+  "window_start": "2026-10-01T11:30:00",
+  "window_end": "2026-10-01T14:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000089",
+  "delivery_id": "DEL-2026-000089",
+  "window_start": "2026-10-01T09:00:00",
+  "window_end": "2026-10-01T13:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000090",
+  "delivery_id": "DEL-2026-000090",
+  "window_start": "2026-10-01T10:30:00",
+  "window_end": "2026-10-01T12:30:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000091",
+  "delivery_id": "DEL-2026-000091",
+  "window_start": "2026-10-01T14:00:00",
+  "window_end": "2026-10-01T18:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000092",
+  "delivery_id": "DEL-2026-000092",
+  "window_start": "2026-10-01T11:00:00",
+  "window_end": "2026-10-01T13:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000093",
+  "delivery_id": "DEL-2026-000093",
+  "window_start": "2026-10-01T09:00:00",
+  "window_end": "2026-10-01T12:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000094",
+  "delivery_id": "DEL-2026-000094",
+  "window_start": "2026-10-01T09:30:00",
+  "window_end": "2026-10-01T13:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000095",
+  "delivery_id": "DEL-2026-000095",
+  "window_start": "2026-10-01T16:00:00",
+  "window_end": "2026-10-01T19:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000096",
+  "delivery_id": "DEL-2026-000096",
+  "window_start": "2026-10-01T11:00:00",
+  "window_end": "2026-10-01T14:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000097",
+  "delivery_id": "DEL-2026-000097",
+  "window_start": "2026-10-02T11:00:00",
+  "window_end": "2026-10-02T14:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000098",
+  "delivery_id": "DEL-2026-000098",
+  "window_start": "2026-10-02T10:00:00",
+  "window_end": "2026-10-02T16:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000099",
+  "delivery_id": "DEL-2026-000099",
+  "window_start": "2026-10-02T15:30:00",
+  "window_end": "2026-10-02T18:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000100",
+  "delivery_id": "DEL-2026-000100",
+  "window_start": "2026-10-02T09:00:00",
+  "window_end": "2026-10-02T12:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000101",
+  "delivery_id": "DEL-2026-000101",
+  "window_start": "2026-10-03T12:00:00",
+  "window_end": "2026-10-03T18:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000102",
+  "delivery_id": "DEL-2026-000102",
+  "window_start": "2026-10-03T08:30:00",
+  "window_end": "2026-10-03T14:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000103",
+  "delivery_id": "DEL-2026-000103",
+  "window_start": "2026-10-03T13:30:00",
+  "window_end": "2026-10-03T19:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000104",
+  "delivery_id": "DEL-2026-000104",
+  "window_start": "2026-10-03T15:00:00",
+  "window_end": "2026-10-03T17:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000105",
+  "delivery_id": "DEL-2026-000105",
+  "window_start": "2026-10-04T13:00:00",
+  "window_end": "2026-10-04T15:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000106",
+  "delivery_id": "DEL-2026-000106",
+  "window_start": "2026-10-04T08:30:00",
+  "window_end": "2026-10-04T14:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000107",
+  "delivery_id": "DEL-2026-000107",
+  "window_start": "2026-10-05T08:30:00",
+  "window_end": "2026-10-05T10:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000108",
+  "delivery_id": "DEL-2026-000108",
+  "window_start": "2026-10-05T11:00:00",
+  "window_end": "2026-10-05T17:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000109",
+  "delivery_id": "DEL-2026-000109",
+  "window_start": "2026-10-05T12:00:00",
+  "window_end": "2026-10-05T14:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000110",
+  "delivery_id": "DEL-2026-000110",
+  "window_start": "2026-10-05T12:00:00",
+  "window_end": "2026-10-05T15:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000111",
+  "delivery_id": "DEL-2026-000111",
+  "window_start": "2026-10-05T11:00:00",
+  "window_end": "2026-10-05T15:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000112",
+  "delivery_id": "DEL-2026-000112",
+  "window_start": "2026-10-05T16:00:00",
+  "window_end": "2026-10-05T18:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000113",
+  "delivery_id": "DEL-2026-000113",
+  "window_start": "2026-10-05T11:30:00",
+  "window_end": "2026-10-05T15:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000114",
+  "delivery_id": "DEL-2026-000114",
+  "window_start": "2026-10-05T12:00:00",
+  "window_end": "2026-10-05T14:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000115",
+  "delivery_id": "DEL-2026-000115",
+  "window_start": "2026-10-05T10:30:00",
+  "window_end": "2026-10-05T16:30:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000116",
+  "delivery_id": "DEL-2026-000116",
+  "window_start": "2026-10-05T11:30:00",
+  "window_end": "2026-10-05T17:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000117",
+  "delivery_id": "DEL-2026-000117",
+  "window_start": "2026-10-05T14:00:00",
+  "window_end": "2026-10-05T20:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000118",
+  "delivery_id": "DEL-2026-000118",
+  "window_start": "2026-10-05T15:00:00",
+  "window_end": "2026-10-05T17:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000119",
+  "delivery_id": "DEL-2026-000119",
+  "window_start": "2026-10-05T10:00:00",
+  "window_end": "2026-10-05T13:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000120",
+  "delivery_id": "DEL-2026-000120",
+  "window_start": "2026-10-02T10:00:00",
+  "window_end": "2026-10-02T12:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000121",
+  "delivery_id": "DEL-2026-000121",
+  "window_start": "2026-10-02T14:00:00",
+  "window_end": "2026-10-02T17:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000122",
+  "delivery_id": "DEL-2026-000122",
+  "window_start": "2026-10-02T16:00:00",
+  "window_end": "2026-10-02T20:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000123",
+  "delivery_id": "DEL-2026-000123",
+  "window_start": "2026-10-02T11:00:00",
+  "window_end": "2026-10-02T13:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000124",
+  "delivery_id": "DEL-2026-000124",
+  "window_start": "2026-10-02T14:30:00",
+  "window_end": "2026-10-02T16:30:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000125",
+  "delivery_id": "DEL-2026-000125",
+  "window_start": "2026-10-02T09:00:00",
+  "window_end": "2026-10-02T12:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000126",
+  "delivery_id": "DEL-2026-000126",
+  "window_start": "2026-10-02T14:00:00",
+  "window_end": "2026-10-02T17:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000127",
+  "delivery_id": "DEL-2026-000127",
+  "window_start": "2026-10-02T14:30:00",
+  "window_end": "2026-10-02T17:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000128",
+  "delivery_id": "DEL-2026-000128",
+  "window_start": "2026-10-02T08:30:00",
+  "window_end": "2026-10-02T10:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000129",
+  "delivery_id": "DEL-2026-000129",
+  "window_start": "2026-10-02T08:30:00",
+  "window_end": "2026-10-02T11:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000130",
+  "delivery_id": "DEL-2026-000130",
+  "window_start": "2026-10-03T14:00:00",
+  "window_end": "2026-10-03T16:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000131",
+  "delivery_id": "DEL-2026-000131",
+  "window_start": "2026-10-03T15:30:00",
+  "window_end": "2026-10-03T18:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000132",
+  "delivery_id": "DEL-2026-000132",
+  "window_start": "2026-10-03T15:00:00",
+  "window_end": "2026-10-03T18:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000133",
+  "delivery_id": "DEL-2026-000133",
+  "window_start": "2026-10-03T12:00:00",
+  "window_end": "2026-10-03T15:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000134",
+  "delivery_id": "DEL-2026-000134",
+  "window_start": "2026-10-03T13:00:00",
+  "window_end": "2026-10-03T17:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000135",
+  "delivery_id": "DEL-2026-000135",
+  "window_start": "2026-10-03T16:00:00",
+  "window_end": "2026-10-03T20:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000136",
+  "delivery_id": "DEL-2026-000136",
+  "window_start": "2026-10-03T16:00:00",
+  "window_end": "2026-10-03T20:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000137",
+  "delivery_id": "DEL-2026-000137",
+  "window_start": "2026-10-03T14:00:00",
+  "window_end": "2026-10-03T20:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000138",
+  "delivery_id": "DEL-2026-000138",
+  "window_start": "2026-10-03T12:00:00",
+  "window_end": "2026-10-03T14:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000139",
+  "delivery_id": "DEL-2026-000139",
+  "window_start": "2026-10-03T10:00:00",
+  "window_end": "2026-10-03T13:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000140",
+  "delivery_id": "DEL-2026-000140",
+  "window_start": "2026-10-04T11:00:00",
+  "window_end": "2026-10-04T15:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000141",
+  "delivery_id": "DEL-2026-000141",
+  "window_start": "2026-10-04T11:00:00",
+  "window_end": "2026-10-04T17:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000142",
+  "delivery_id": "DEL-2026-000142",
+  "window_start": "2026-10-04T10:30:00",
+  "window_end": "2026-10-04T12:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000143",
+  "delivery_id": "DEL-2026-000143",
+  "window_start": "2026-10-04T15:30:00",
+  "window_end": "2026-10-04T19:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000144",
+  "delivery_id": "DEL-2026-000144",
+  "window_start": "2026-10-05T08:30:00",
+  "window_end": "2026-10-05T12:30:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000145",
+  "delivery_id": "DEL-2026-000145",
+  "window_start": "2026-10-05T12:30:00",
+  "window_end": "2026-10-05T15:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000146",
+  "delivery_id": "DEL-2026-000146",
+  "window_start": "2026-10-05T13:00:00",
+  "window_end": "2026-10-05T16:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000147",
+  "delivery_id": "DEL-2026-000147",
+  "window_start": "2026-10-05T09:30:00",
+  "window_end": "2026-10-05T15:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000148",
+  "delivery_id": "DEL-2026-000148",
+  "window_start": "2026-10-05T11:30:00",
+  "window_end": "2026-10-05T15:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000149",
+  "delivery_id": "DEL-2026-000149",
+  "window_start": "2026-10-05T09:00:00",
+  "window_end": "2026-10-05T11:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000150",
+  "delivery_id": "DEL-2026-000150",
+  "window_start": "2026-10-05T09:30:00",
+  "window_end": "2026-10-05T12:30:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000151",
+  "delivery_id": "DEL-2026-000151",
+  "window_start": "2026-10-05T13:30:00",
+  "window_end": "2026-10-05T16:30:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000152",
+  "delivery_id": "DEL-2026-000152",
+  "window_start": "2026-10-05T13:30:00",
+  "window_end": "2026-10-05T17:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000153",
+  "delivery_id": "DEL-2026-000153",
+  "window_start": "2026-10-03T14:30:00",
+  "window_end": "2026-10-03T18:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000154",
+  "delivery_id": "DEL-2026-000154",
+  "window_start": "2026-10-03T08:00:00",
+  "window_end": "2026-10-03T14:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000155",
+  "delivery_id": "DEL-2026-000155",
+  "window_start": "2026-10-03T17:00:00",
+  "window_end": "2026-10-03T19:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000156",
+  "delivery_id": "DEL-2026-000156",
+  "window_start": "2026-10-03T08:00:00",
+  "window_end": "2026-10-03T12:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000157",
+  "delivery_id": "DEL-2026-000157",
+  "window_start": "2026-10-03T12:00:00",
+  "window_end": "2026-10-03T15:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000158",
+  "delivery_id": "DEL-2026-000158",
+  "window_start": "2026-10-03T13:30:00",
+  "window_end": "2026-10-03T16:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000159",
+  "delivery_id": "DEL-2026-000159",
+  "window_start": "2026-10-03T10:00:00",
+  "window_end": "2026-10-03T16:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000160",
+  "delivery_id": "DEL-2026-000160",
+  "window_start": "2026-10-03T09:00:00",
+  "window_end": "2026-10-03T11:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000161",
+  "delivery_id": "DEL-2026-000161",
+  "window_start": "2026-10-03T11:00:00",
+  "window_end": "2026-10-03T15:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000162",
+  "delivery_id": "DEL-2026-000162",
+  "window_start": "2026-10-03T15:00:00",
+  "window_end": "2026-10-03T17:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000163",
+  "delivery_id": "DEL-2026-000163",
+  "window_start": "2026-10-04T09:00:00",
+  "window_end": "2026-10-04T15:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000164",
+  "delivery_id": "DEL-2026-000164",
+  "window_start": "2026-10-04T15:00:00",
+  "window_end": "2026-10-04T18:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000165",
+  "delivery_id": "DEL-2026-000165",
+  "window_start": "2026-10-04T10:30:00",
+  "window_end": "2026-10-04T14:30:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000166",
+  "delivery_id": "DEL-2026-000166",
+  "window_start": "2026-10-04T14:30:00",
+  "window_end": "2026-10-04T16:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000167",
+  "delivery_id": "DEL-2026-000167",
+  "window_start": "2026-10-05T17:00:00",
+  "window_end": "2026-10-05T20:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000168",
+  "delivery_id": "DEL-2026-000168",
+  "window_start": "2026-10-05T14:30:00",
+  "window_end": "2026-10-05T17:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000169",
+  "delivery_id": "DEL-2026-000169",
+  "window_start": "2026-10-05T14:30:00",
+  "window_end": "2026-10-05T16:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000170",
+  "delivery_id": "DEL-2026-000170",
+  "window_start": "2026-10-05T14:00:00",
+  "window_end": "2026-10-05T17:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000171",
+  "delivery_id": "DEL-2026-000171",
+  "window_start": "2026-10-05T09:30:00",
+  "window_end": "2026-10-05T11:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000172",
+  "delivery_id": "DEL-2026-000172",
+  "window_start": "2026-10-05T12:30:00",
+  "window_end": "2026-10-05T14:30:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000173",
+  "delivery_id": "DEL-2026-000173",
+  "window_start": "2026-10-05T11:30:00",
+  "window_end": "2026-10-05T14:30:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000174",
+  "delivery_id": "DEL-2026-000174",
+  "window_start": "2026-10-05T11:00:00",
+  "window_end": "2026-10-05T15:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000175",
+  "delivery_id": "DEL-2026-000175",
+  "window_start": "2026-10-05T16:30:00",
+  "window_end": "2026-10-05T18:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000176",
+  "delivery_id": "DEL-2026-000176",
+  "window_start": "2026-10-05T09:00:00",
+  "window_end": "2026-10-05T13:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000177",
+  "delivery_id": "DEL-2026-000177",
+  "window_start": "2026-10-05T13:00:00",
+  "window_end": "2026-10-05T15:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000178",
+  "delivery_id": "DEL-2026-000178",
+  "window_start": "2026-10-05T16:30:00",
+  "window_end": "2026-10-05T20:30:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000179",
+  "delivery_id": "DEL-2026-000179",
+  "window_start": "2026-10-05T17:00:00",
+  "window_end": "2026-10-05T19:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000180",
+  "delivery_id": "DEL-2026-000180",
+  "window_start": "2026-10-04T12:00:00",
+  "window_end": "2026-10-04T16:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000181",
+  "delivery_id": "DEL-2026-000181",
+  "window_start": "2026-10-04T18:00:00",
+  "window_end": "2026-10-04T21:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000182",
+  "delivery_id": "DEL-2026-000182",
+  "window_start": "2026-10-04T07:30:00",
+  "window_end": "2026-10-04T11:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000183",
+  "delivery_id": "DEL-2026-000183",
+  "window_start": "2026-10-04T10:00:00",
+  "window_end": "2026-10-04T16:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000184",
+  "delivery_id": "DEL-2026-000184",
+  "window_start": "2026-10-05T10:30:00",
+  "window_end": "2026-10-05T12:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000185",
+  "delivery_id": "DEL-2026-000185",
+  "window_start": "2026-10-05T13:00:00",
+  "window_end": "2026-10-05T15:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000186",
+  "delivery_id": "DEL-2026-000186",
+  "window_start": "2026-10-05T10:30:00",
+  "window_end": "2026-10-05T12:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000187",
+  "delivery_id": "DEL-2026-000187",
+  "window_start": "2026-10-05T14:00:00",
+  "window_end": "2026-10-05T20:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000188",
+  "delivery_id": "DEL-2026-000188",
+  "window_start": "2026-10-05T14:00:00",
+  "window_end": "2026-10-05T17:00:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000189",
+  "delivery_id": "DEL-2026-000189",
+  "window_start": "2026-10-05T13:30:00",
+  "window_end": "2026-10-05T19:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000190",
+  "delivery_id": "DEL-2026-000190",
+  "window_start": "2026-10-05T16:00:00",
+  "window_end": "2026-10-05T18:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000191",
+  "delivery_id": "DEL-2026-000191",
+  "window_start": "2026-10-05T11:00:00",
+  "window_end": "2026-10-05T13:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000192",
+  "delivery_id": "DEL-2026-000192",
+  "window_start": "2026-10-05T18:00:00",
+  "window_end": "2026-10-05T20:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000193",
+  "delivery_id": "DEL-2026-000193",
+  "window_start": "2026-10-05T11:00:00",
+  "window_end": "2026-10-05T14:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000194",
+  "delivery_id": "DEL-2026-000194",
+  "window_start": "2026-10-05T15:00:00",
+  "window_end": "2026-10-05T18:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000195",
+  "delivery_id": "DEL-2026-000195",
+  "window_start": "2026-10-05T11:30:00",
+  "window_end": "2026-10-05T14:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000196",
+  "delivery_id": "DEL-2026-000196",
+  "window_start": "2026-10-05T11:30:00",
+  "window_end": "2026-10-05T14:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000197",
+  "delivery_id": "DEL-2026-000197",
+  "window_start": "2026-10-05T11:30:00",
+  "window_end": "2026-10-05T17:30:00",
+  "window_type": "SOFT",
+  "grace_minutes": 30
+ },
+ {
+  "tw_id": "TW-000198",
+  "delivery_id": "DEL-2026-000198",
+  "window_start": "2026-10-05T10:00:00",
+  "window_end": "2026-10-05T12:00:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000199",
+  "delivery_id": "DEL-2026-000199",
+  "window_start": "2026-10-05T12:30:00",
+  "window_end": "2026-10-05T16:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ },
+ {
+  "tw_id": "TW-000200",
+  "delivery_id": "DEL-2026-000200",
+  "window_start": "2026-10-05T11:30:00",
+  "window_end": "2026-10-05T15:30:00",
+  "window_type": "HARD",
+  "grace_minutes": 15
+ }
+]
